@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="CyanogenMod/android_bionic" />
+  <project path="bionic" name="NitroCM/android_bionic" groups="pdk" />
+  
+  <project path="device/lge/p930" name="NitroCM/android_device_lge_p930" />
+  
+  <project path="hardware/qcom/display-caf/msm8660" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8660" />
+  <project path="hardware/qcom/media-caf/msm8660" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.1-caf-8660" />
+  
+  <project path="kernel/lge/iproj" name="NitroCM/kernel_lge_iproj" />
+
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="pdk,darwin,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  
+  <project path="vendor/lge/p930" name="NitroCM/android_vendor_lge_p930" />
+</manifest>
